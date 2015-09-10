@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0 auto;
+}
+
+#center{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top:100px;
+	background-repeat:repeat-x;
+	border-radius:20px;
+	box-shadow: 10px 10px 5px #000000;
+	background-image:url(../img/fundo_login.png);
+	
+
+}
+#left{
+	width:270px;
+	height:200px;
+	float:left;
+	margin-top:80px;
+	margin-left:130px;
+	
+	
+	
+}
+#log{	
+	
+	width:300px;
+	height:300px;
+	float:right;
+}
+
+p[title=nome]{
+	margin-top:10px;
+	margin-bottom:30px;
+	width:300px;
+	color:#0F0;
+	font-size:40px;
+	font-family:Georgia, "Times New Roman", Times, serif
+}
+p[title=processo2]{
+	color:#00F;
+	margin-left:50px;
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif
+}
+p[title=processo]{
+	color:#FFF;
+	margin-left:50px;
+	font-size:15px;
+	font-family:Georgia, "Times New Roman", Times, serif
+
+}
+
+input[type=submit]{
+	background-color:#00F;
+	border-style:none;
+	border-color:#00F;
+	color:#FFF;
+	width:70px;
+	height:25px;
+	margin-left:30px;	
+	}
+input[type=reset]{
+	background-color:#00F;
+	border-style:none;
+	border-color:#00F;
+	color:#FFF;
+	width:70px;
+	height:25px;
+	margin-left:20px;
+}
+#teste{
+	margin:0 auto;
+}

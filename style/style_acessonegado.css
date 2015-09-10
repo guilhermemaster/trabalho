@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+#center{
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top:100px;
+	background-repeat:repeat-x;
+	border-radius:20px;
+	box-shadow: 10px 10px 5px #000000;
+	background-image:url(../img/fundo_login.png);
+
+}
+p[title=acesso]{
+	border-radius:5px;
+	margin-top:10px;
+	text-align:center;
+	background-color:#0F0;
+	color:#FFF;
+	font-size:25px;
+		
+}
+
+img[title=img]{
+	margin-left:270px;
+
+}
+p[title=volta]{
+	text-align:center;
+	color:#F00;
+	text-decoration:none;
+	font-size:18px;
+}
+p>a{
+	text-decoration:none;
+}
+a:visited{
+	color:#F00;
+
+}

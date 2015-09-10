@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0 auto;
+}
+#center{
+	width:1000px;
+	height:600px;
+	background-color:#CCC;
+	box-shadow: 10px 10px 5px #000000;
+	border-radius:20px;
+	
+}
+#heder{
+	width:1000px;
+	height:100px;
+	background-image:url(../img/botao_menu.png);
+	background-repeat:repeat-x;
+	border-radius:5px;
+	
+}
+#left{
+	width:150px;
+	height:475px;
+	float:left;
+	box-shadow: 2px 2px 2px #000000;
+	background-image:url(../img/img_left.png);
+	background-repeat:repeat-y;
+	border-radius:5px;
+	
+}
+#reight{
+	width:850px;
+	height:475px;
+	float:right;
+	
+}
+li{
+	list-style-type:none;
+	list-style-position:outside;
+	border-radius:5px;
+	text-align:center;
+	background-image:url(../img/botao_menu.png);
+	background-repeat:repeat-x;
+	margin-top:10px;
+	height:20px;
+	width:100px;
+	float:left;
+	color:#FFF;
+	
+}	
+ul{
+	margin-left:-20px;
+}
+main{
+	width: 800px;
+	height: auto;
+	margin: 0px auto 0px auto;
+	margin-top:5px !important;
+}
+p[title=responsavel]{
+	text-align:center;
+}
+p[title=log]{
+	text-align:center;
+	color:#FFF;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+p[title=logomarca]{
+	text-align:center;
+}
+	
